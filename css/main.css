@@ -8,14 +8,78 @@ body {
     
 }
 
+
+.wrapperb {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card{
+  background-color: #ddd;
+  border-radius: 10px;
+  padding: 20px;  
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+
+
 .nav{
     color: black;
+}
+
+.secondnav{
+  background-color: rgb(49, 146, 155);
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  border-radius: 10px;
+  margin: 30px auto;
+  width: 80%;}
+
+  .secondnav input{
+    padding: 10px;
+    border: 1px solid #f3fbfc;
+    border-radius: 5px;
+    width: 20%;
+
+
+  }
+  
+  .secondnav button{
+    background-color: black;
+    color: #f0eeef;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+  }
+  
 }
 .welcome{
     text-align:inherit;
     
 }
 
+.wrapperr{
+  background-color: #f0eeef;
+}
+
+.wrappert{
+  display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    list-style: none; 
+}
+.wrapperx{
+  background-color: bisque;
+}
+
+.wrappery{
+  background-color: aqua;
+}
 .homeimg{
     padding-left: 60%;
     
@@ -106,7 +170,7 @@ ul {
 
 @media screen and (min-width: 700px) {
     body {
-     background-color: rgb(10, 119, 152);
+     background-color: rgb(197, 244, 231);
     }
 
     
