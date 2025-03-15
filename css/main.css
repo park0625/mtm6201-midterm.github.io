@@ -115,6 +115,15 @@ body {
 
 }
 
+.wrapperf{ background-color: rgb(178, 178, 178);
+  display: flex;
+    justify-content: space-around;
+    padding-right: 0;
+    width: 60%;
+    
+
+}
+
 .box1{
   background-color: bisque;
   display: flex;
@@ -203,6 +212,8 @@ ul {
 
 }
 
+
+
 @media screen and (min-width: 700px) {
     body {
      background-color: rgb(197, 244, 231);
@@ -266,25 +277,18 @@ ul {
     columns: #fff;
 }
 
-.block-1 { background-color: cadetblue;}
-.block-2 { background-color: coral;}
-.block-3 { background-color: yellowgreen;}
-.block-4 { background-color: peru;}
-.block-5 { background-color: plum;}
-.block-6 { background-color: gray;}
+
 
 .block-1 { 
      grid-area: b1;
 }
 
-.block-2{ grid-area: b2;}
-.block-3{ grid-area: b3;}
-.block-4{ grid-area: b4;}
-.block-5{ grid-area: b5;}
-.block-6{ grid-area: b6;}
+.block-2{ grid-area: b4;}
+.block-3{ grid-area: b2;}
+.block-4{ grid-area: b7;}
 
 
-Grid website demo
+
 footer {
     font-size: 0.75rem;
 }
