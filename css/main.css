@@ -12,13 +12,13 @@ body {
 .wrapperb {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 80px;
 }
 
 .card{
-  background-color: #ddd;
+  background-color: #aaaba7;
   border-radius: 10px;
-  padding: 20px;  
+  padding: 80px;  
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 30%;
@@ -74,11 +74,26 @@ body {
     list-style: none; 
 }
 .wrapperx{
+  background-color: rgb(195, 196, 195);
+  display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    width: 60%;
+    text-align;
+    
+}
+
+.container-xl{
   background-color: bisque;
+  display: flex;
+    justify-content: space-around;
+  
+    width: 60%;
+
 }
 
 .wrappery{
-  background-color: aqua;
+  background-color: rgb(186, 188, 188);
 }
 .homeimg{
     padding-left: 60%;
@@ -88,6 +103,26 @@ body {
 .h1img{
     padding-right: 100%;
     size: 50px;
+}
+
+.wrapper11{
+  background-color: bisque;
+  display: flex;
+    justify-content:flex-end;
+    padding-left: 70;
+    width: 60%;
+    
+
+}
+
+.box1{
+  background-color: bisque;
+  display: flex;
+    justify-content: space-around;
+    padding-right: 0;
+    width: 60%;
+    
+
 }
 .stack1 div {
     display: block ;
